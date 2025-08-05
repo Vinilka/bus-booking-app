@@ -1,0 +1,22 @@
+.manage-buses {
+    padding: 20px;
+  }
+  
+  .manage-buses table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .manage-buses th, .manage-buses td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .manage-buses input, .manage-buses select {
+    width: 100%;
+  }
+  
+  .btn-danger {
+    background: red;
+    color: white;
+  }

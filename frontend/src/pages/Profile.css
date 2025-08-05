@@ -1,0 +1,44 @@
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 16px;
+    color: #007bff;
+  }
+  
+  .error {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+  }
+  
+  .no-history {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .history-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .history-list li {
+    padding: 8px;
+    background: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  .btn-danger {
+    background-color: #ff4444;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }

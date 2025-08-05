@@ -1,0 +1,104 @@
+.admin-routes-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-routes-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .routes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .routes-table th,
+  .routes-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .routes-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .routes-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .routes-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .routes-table input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+  }
+  
+  .action-buttons button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-save {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-save:hover {
+    background-color: #218838;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+  }
+  
+  .add-route-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .add-route-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-route-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-route-form button:hover {
+    background-color: #0056b3;
+  }
